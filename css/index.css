@@ -95,15 +95,11 @@ label {
     position:absolute;
     transform:translateY(6px);
     left:13px;
-    color:rgba($white,.5);
+    color:rgba(#fff,.5);
     transition:all 0.25s ease;
     -webkit-backface-visibility: hidden;
     pointer-events: none;
     font-size:22px;
-    .req {
-        margin:2px;
-        color:$main;
-    }
   }
 
   label.active {
